@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+}
+:root{
+    --orange-color: rgb(254, 163, 1);
+    --sky-blue:rgb(1, 172, 253);
+    --white:rgb(255, 255, 255);
+    --dark1:rgb(17, 17, 17);
+    --dark2:rgb(0, 0, 0);
+}
+/* sherd style  */
+.btn{
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:var(--white) ;
+    border-radius: 12px;
+    background-color: var(--dark1);
+
+}
+/* header area start  */
+header{
+    background-color: rgb(247, 247, 247);
+}
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 87%;
+    margin: 0 auto;
+    
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-title h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-item ul{
+    display: flex;
+    gap:32px;
+
+}
+.nav-item li{
+    list-style: none;
+
+}
+.nav-item a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.banner{
+    display: flex;
+    gap: 30px;
+    max-width: 87%;
+    margin: 0 auto;
+    align-items: center;
+}
+.banner-text{
+    width: 60%;
+}
+.banner-text h1{
+    font-size: 3.5rem;
+
+}
+.banner-text-style{
+    color: var(--orange-color);
+}
+#banner-text-style{
+    color: var(--sky-blue);
+}
+.banner-text p{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.banner-img{
+    width: 40%;
+}
+.banner-img img{
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width:776px){
+    .banner{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .banner-text h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .banner-text p{
+        font-size: 14px;
+    }
+    .banner-img{
+        width: 100%;
+    
+    }
+}
