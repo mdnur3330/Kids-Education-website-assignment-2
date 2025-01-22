@@ -105,9 +105,6 @@ header{
 /* Standard Curriculum area start  */
 .curriculum-section{
     background-image: url('img/bg.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .curriculum-container{ 
    
@@ -444,7 +441,6 @@ footer{
         flex-direction: column;
         gap: 10px;
         max-width: 90%;
-        /* margin: 0 auto; */
         padding: 123px 0;
         color: white;
     }
