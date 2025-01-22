@@ -421,7 +421,7 @@ footer{
         flex-direction: column;
         gap: 10px;
         max-width: 90%;
-        padding: 123px 0 20px 123px;
+        padding: 123px 0 20px 0;
         color: white;
     }
 }
