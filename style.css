@@ -333,6 +333,7 @@ footer{
         justify-content: space-between;
         align-items: center;
         padding: 20px;
+        border: 1px solid #fea101;
     }
     .fa-solid{
         font-size: 40px;
@@ -379,7 +380,9 @@ footer{
         font-size: 10px;
         line-height: 20px;
     }
-
+    .arrow-icon{
+        display: none;
+    }
     /* Our Stories Area Start  */
 
     .stories-section{
