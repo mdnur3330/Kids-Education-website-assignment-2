@@ -184,6 +184,12 @@ header{
     font-weight: bold;
     font-size: 30px;
 }
+.arrow-icon i:hover {
+    background-color: #ffffff00;
+    color: #111111;
+    border: 1px solid --orange-color;
+    transition: 0.5s;
+}
 
 /* Our Stories Area Start  */
 .stories-section {
@@ -246,6 +252,7 @@ header{
 }    
 .stories-singal-item-img{
     border-radius: 16px 16px 0 0;
+    width: 100%;
 }
 .stories-singal-item-title{
     background-color: white;
