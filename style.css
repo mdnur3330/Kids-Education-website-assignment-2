@@ -304,20 +304,15 @@ footer{
     .nav-parent{
         display: none;
     }
-    /* .nav-parent > button{
-        display: none;
-    }
-    .nav-title h3{
-        display: none;
-    }
-    .nav-item{
-        display: none;
-    } */
     .mobail-manu{
         display: block;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 0 10px;
+    }
+    .fa-solid{
+        font-size: 40px;
     }
     .banner{
         flex-direction: column;
@@ -378,7 +373,7 @@ footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
-        max-width: 90%;
+        max-width: 100%;
     }
     .stories-singal-item-parent div button{
         font-size: 0.7rem;
