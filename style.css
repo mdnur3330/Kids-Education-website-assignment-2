@@ -62,6 +62,15 @@ header{
 .mobail-manu{
     display: none;
 }
+.notice{
+    background-color: #01acfd;
+    color: white;
+    padding: 10px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
 .banner{
     display: flex;
     gap: 30px;
@@ -93,17 +102,16 @@ header{
 }
 
 /* Standard Curriculum area start  */
-/* main{
-    background-image: url('img/bg.png');
-    background-repeat: repeat;
-} */
 .curriculum-section{
     background-image: url('img/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .curriculum-container{ 
     max-width: 87%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 70px 0;
 
 }
 .curriculum-title , .stories-titile{
@@ -160,11 +168,24 @@ header{
 #curriculum-box3-btn{
     color: #8700FF;
 }
+/* arrow-icon */
+.arrow-icon{
+    text-align: center;
+}
+.arrow-icon i{
+    background-color: var(--orange-color);
+    color: white;
+    padding: 20px;
+    border-radius: 100%;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
 
 /* Our Stories Area Start  */
 .stories-section {
     background-image: url('img/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-    padding: 100px 0;
+    padding: 80px 0;
    
 }
 .stories-container{
@@ -241,7 +262,7 @@ footer{
 .footer-container{
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 50px 50px 10px 50px;
     max-width: 87%;
     margin: 0 auto;
     padding: 123px 140px;
@@ -254,7 +275,7 @@ footer{
     display: flex;
 }
 .footer-logo-div h2{
-    font-size: 2.6rem;
+    font-size: 2.3rem;
 }
 .footer-logo-dic{
     margin-top: 15px;
@@ -297,9 +318,7 @@ footer{
 
 
 
-.nur{
-    text-align: center;
-}
+
 @media only screen and (max-width:776px){
     .nav-parent{
         display: none;
@@ -309,7 +328,7 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 10px;
+        padding: 20px;
     }
     .fa-solid{
         font-size: 40px;
